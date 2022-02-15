@@ -2,13 +2,28 @@
     "name": "linguaggio-dante",
     "displayName": "Linguaggio Dante",
     "description": "Evidenziazione della sintassi per il linguaggio di programmazione Dante",
-    "version": "0.0.1",
+    "version": "1.1.0",
     "engines": {
-        "vscode": "^1.64.0"
+        "vscode": "^1.51.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "keywords": [
+        "dante",
+        "sintassi",
+        "sintassi dante"
+    ],
+    "publisher": "MatMasIt",
+    "homepage": "https://raw.githubusercontent.com/MatMasIt/dante-sintassi",
+    "repository": {
+        "type": "git",
+        "url": "https://raw.githubusercontent.com/MatMasIt/dante-sintassi.git"
+    },
+    "bugs": {
+        "url": "https://raw.githubusercontent.com/MatMasIt/dante-sintassi/issues"
+    },
+    "icon": "logo.png",
     "contributes": {
         "languages": [
             {
@@ -20,7 +35,11 @@
                 "extensions": [
                     ".dante"
                 ],
-                "configuration": "./language-configuration.json"
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "dark": "logo.png",
+                    "light": "logo.png"
+                }
             }
         ],
         "grammars": [
