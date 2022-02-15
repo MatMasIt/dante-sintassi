@@ -1,0 +1,34 @@
+{
+    "name": "linguaggio-dante",
+    "displayName": "Linguaggio Dante",
+    "description": "Evidenziazione della sintassi per il linguaggio di programmazione Dante",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "dante",
+                "aliases": [
+                    "Dante",
+                    "dante"
+                ],
+                "extensions": [
+                    ".dante"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dante",
+                "scopeName": "text.html.dante",
+                "path": "./syntaxes/dante.tmLanguage.json"
+            }
+        ]
+    }
+}
