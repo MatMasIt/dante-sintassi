@@ -8,6 +8,8 @@ Non include l'interprete
 
 Published on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MatMasIt.linguaggio-dante)
 
-Example:
+Pubblicato sul [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MatMasIt.linguaggio-dante)
+
+Example / Esempio:
 
 ![](https://i.imgur.com/N4FZehW.png)
