@@ -14,7 +14,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.dante",
-					"match": "\\b(inizio|da|restituisci|restituisce|scorri|funzione|se|altrimenti|infine|prova|errore|sennonché|finché|importa|in|passo|crea|distruggi|eredita|come|eccezione|pubblico|ristretto|interno|valuta|caso|predefinito|lancia)\\b"
+					"match": "\\b(inizio|da|restituisci|restituisce|scorri|funzione|se|altrimenti|infine|prova|errore|sennonché|finché|importa|in|passo|crea|distruggi|eredita|come|eccezione|pubblico|ristretto|interno|valuta|caso|predefinito|lancia|figlio di)\\b"
 				},
 				{
 					"name": "keyword.operator.dante",
@@ -22,11 +22,11 @@
 				},
 				{
 					"name": "keyword.operator.dante",
-					"match": "(>|<|<=|>=| è | non è | non | o | e | aut |\\+|\\-|\\/|\\*|\\=|\\.)"
+					"match": "(>|<|<=|>=| è | non è | non | o | e | aut |\\+|\\-|\\/|\\*|\\=|\\.|\\||\\,)"
 				},
 				{
 					"name": "storage.type.dante",
-					"match": "\\b(funzione|intero|decimale|testo|lista|oggetto|booleano)\\b"
+					"match": "\\b(funzione|intero|decimale|testo|lista|oggetto|booleano|nulla)\\b"
 				},
 				{
 					"name": "comment.block.dante",
